@@ -1,8 +1,40 @@
+@font-face{
+	font-family: Inconsolata-Regular;
+	src: url(../fonts/Inconsolata-Regular.tff);
+}
+html, body{
+	height: 100%;
+	font-family: 'Inconsolata';
+	font-weight: 400;
+}
+p{
+	font-size: 120%;
+}
+.container-fluid{
+	height: 100%;
+}
+.row{
+	height: 100%;
+}
 #left{
 	height: 100%;
 	text-align: center;
+	overflow: auto;
+}
+#about{
+	width: 50%;
+	margin: auto;
+	margin-top: 30%;
+}
+#menu{
+	position: absolute;
+	top: 45%;
+	right: -5%;
+	transform: rotate(90deg);
+	font-size: 90%;
 }
 #right{
 	height: 100%;
 	text-align: center;
+	background-image: url("../images/stardust.png");
 }
