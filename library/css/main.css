@@ -20,6 +20,7 @@ p{
 	height: 100%;
 	text-align: center;
 	overflow: auto;
+
 }
 #about{
 	width: 50%;
@@ -29,7 +30,7 @@ p{
 #menu{
 	position: absolute;
 	top: 45%;
-	right: -5%;
+	right: -6em;
 	transform: rotate(90deg);
 	font-size: 90%;
 }
@@ -37,4 +38,9 @@ p{
 	height: 100%;
 	text-align: center;
 	background-image: url("../images/stardust.png");
+	color: white;
+}
+.col-md-12{
+	padding-left: 6em;
+	padding-right: 6em;
 }
