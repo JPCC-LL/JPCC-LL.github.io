@@ -6,6 +6,7 @@ html, body{
 	height: 100%;
 	font-family: 'Inconsolata';
 	font-weight: 400;
+	background-image: url("../images/stardust.png");
 }
 p{
 	font-size: 120%;
@@ -20,6 +21,7 @@ p{
 	height: 100%;
 	text-align: center;
 	overflow: auto;
+	background-color: white;
 }
 #about{
 	width: 50%;
